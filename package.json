@@ -15,7 +15,7 @@
   "license": "ISC",
   "repo": {
     "type": "git",
-    "url": "https://github.com/EvanBurbidge/await-wrapper.git"
+    "url": "git://github.com/EvanBurbidge/await-wrapper.git"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.17.0",
