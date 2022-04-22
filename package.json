@@ -1,0 +1,17 @@
+{
+  "name": "promisehandler",
+  "version": "1.0.0",
+  "description": "A small utility to allow cleaner promise handling",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "evanb54",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  }
+}
