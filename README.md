@@ -2,7 +2,7 @@
 
 ## Installation
 
-`npm install -S  await-wrap`
+`npm install -S  await-wrapper`
 
 ## Usage
 
