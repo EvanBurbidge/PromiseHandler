@@ -6,6 +6,11 @@
   "scripts": {
     "test": "jest"
   },
+  "files": [
+    "index.js",
+    "README.md",
+    "package.json"
+  ],
   "author": "evanb54",
   "license": "ISC",
   "devDependencies": {
