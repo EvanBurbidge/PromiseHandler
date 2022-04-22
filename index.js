@@ -4,7 +4,7 @@
 
  * @return { Promise<Any> }
  */
-export function promiseWrapper(promise) {
+export function awaitWrap(promise) {
   return promise.then(function(response) {
     return { error: null, data: response}
   }).catch(function(error) {
@@ -12,4 +12,4 @@ export function promiseWrapper(promise) {
   })
 }
 
-export default promiseWrapper;
+export default awaitWrap;

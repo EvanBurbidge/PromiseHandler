@@ -1,5 +1,5 @@
 {
-  "name": "promise-wrapper",
+  "name": "await-wrapper",
   "version": "1.0.0",
   "description": "A small utility to allow cleaner promise handling",
   "main": "index.js",

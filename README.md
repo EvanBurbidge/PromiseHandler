@@ -2,24 +2,24 @@
 
 ## Installation
 
-`npm install -S  promise-wrapper`
+`npm install -S  await-wrap`
 
 ## Usage
 
 ```javascript
 
-  import { promiseWrapper } from 'promise-wrapper';
+  import { awaitWrap } from 'await-wrap';
 
   const fakePromise = () => new Promise(resolve => setTimeout(resolve("hi")), 500);
   const fakePromiseReject = () => new Promise((__, reject) => setTimeout(reject("no")), 500);
 
   const fakePromiseHandler = async () => {
-    const { error, data } = await promiseWrapper(fakePromise()); // { error: null, data: "hi" };
+    const { error, data } = await awaitWrap(fakePromise()); // { error: null, data: "hi" };
     error ? console.error(error) : console.log(data);
   }
 
   const fakePromiseRejectHandler = async () => {
-    const { error, data } = await promiseWrapper(fakePromiseReject()); // { error: "no", data: null };
+    const { error, data } = await awaitWrap(fakePromiseReject()); // { error: "no", data: null };
     error ? console.error(error) : console.log(data);
   }
 
