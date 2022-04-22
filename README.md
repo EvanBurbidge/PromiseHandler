@@ -8,7 +8,7 @@
 
 ```javascript
 
-  import { awaitWrap } from 'await-wrap';
+  import { awaitWrap } from 'await-wrapper';
 
   const fakePromise = () => new Promise(resolve => setTimeout(resolve("hi")), 500);
   const fakePromiseReject = () => new Promise((__, reject) => setTimeout(reject("no")), 500);
