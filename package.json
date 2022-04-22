@@ -22,5 +22,18 @@
     "@babel/preset-env": "^7.16.11",
     "babel-jest": "^27.5.1",
     "jest": "^27.5.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/EvanBurbidge/await-wrapper/issues"
+  },
+  "keywords": [
+    "await",
+    "async",
+    "promise",
+    "utils",
+    "javascript",
+    "wrapper",
+    "try",
+    "catch"
+  ]
 }
