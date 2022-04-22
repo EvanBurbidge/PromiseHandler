@@ -4,7 +4,7 @@
 
  * @return { Promise<Any> }
  */
-export function PromiseHandler(promise) {
+export function promiseWrapper(promise) {
   return promise.then(function(response) {
     return { error: null, data: response}
   }).catch(function(error) {
@@ -12,4 +12,4 @@ export function PromiseHandler(promise) {
   })
 }
 
-export default PromiseHandler;
+export default promiseWrapper;
