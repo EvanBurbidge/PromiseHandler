@@ -25,7 +25,7 @@
 
 ```
 
-## New methods
+## Callback methods
 
 Listening to some feedback there are some small performance issues that may be encountered with this library, while it may clean up your code it also adds a new level of awaiting to promises. If you need to handle data in a more performant way you can now add a resolverCallback and rejectCallback.
 
